@@ -2,39 +2,34 @@ body {
   margin: 0;
   background-color: #202731;
   color: white;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
+  font-family: system-ui;
+  font-size: 1.125rem;
+  line-height: 1.6;
   word-wrap: break-word;
+ 
 }
 
-.navbar {
+.header{
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  background-color: #202731;
+  height: 100px;
 }
 
 .invert {
   filter: invert(1);
 }
 
-.section {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 400px;
-  padding: 100px 20vw;
-}
 
 .wrapper {
     background: url("layered-peaks-haikei.svg") no-repeat;
     background-size: cover;
     background-clip: border-box;
-    min-height: 2400px;
     z-index: -3;
 }
 
 .sub_heading{
     background-color: #7e5fff;
-    height: 120px;    
+    height: 100px;    
 }
 
 .first_letter{
@@ -45,8 +40,30 @@ body {
 
 .mid_quote{
     background-color: #E6FFFD;
-    min-height: 280px;
-    z-index: 2;
+    min-height: 320px;
     color: #7c64ff;
 }
 
+
+.photo {
+  max-width: 572px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 572px) {
+
+  .container{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    }
+  .header{
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    position: static !important
+  }
+  .photo{
+    padding: 0 !important;
+  }
+}

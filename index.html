@@ -13,18 +13,19 @@
     <title>Habify</title>
   </head>
   <body>
-    <div class="navbar">
-      <nav class="sticky-top container">
-        <div class="px-5 logo">
-          <img src="logo.png" alt="logo" />
+    <nav class="navbar header sticky-top">
+        <div class="logo navbar-brand m-auto">
+          <img src="logo.png" alt="logo" width="200px" height="80px"/>
         </div>
 
-        <a class="btn btn-primary btn-large rounded-pill" href="tel:+917618764767">
+        <a
+          class="btn btn-primary btn-large rounded-pill m-auto my-2"
+          href="tel:+917618764767"
+        >
           <img src="telephone.svg" class="invert" />
           +91 76187 64767
         </a>
       </nav>
-    </div>
     <div class="wrapper">
       <div
         class="d-flex flex-row justify-content-center align-items-center sub_heading"
@@ -49,13 +50,13 @@
             help?” Well, there are two main reasons for this.
           </p>
           <ul style="padding-left: 10vw">
-            <li>People don’t want to seek help. </li>
+            <li>People don’t want to seek help.</li>
             <li>People can’t get help.</li>
           </ul>
         </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center ">
           <img
-            class="py-2"
+            class="py-5 img-fluid"
             src="https://habify.org/wp-content/uploads/2022/09/04-1024x416.png"
             alt="habify"
           />
@@ -94,17 +95,16 @@
           in it.
         </p>
 
-        <section class="d-flex p-4">
+        <section class="d-flex flex-wrap">
           <div>
             <img
+            class="photo p-5"
               src="https://habify.org/wp-content/uploads/2022/08/Brain-768x768.jpg"
               alt="mental wellness"
-              height="574px"
-              width="574px"
             />
           </div>
-          <div class="px-5" style="max-width: 572px">
-            <h2 style="color: #234a5b">— THE URGENCY</h2>
+          <div class="p-3" style="max-width: 572px">
+            <h3 style="color: #234a5b">— THE URGENCY</h3>
             <h1>At the Forefront of Mental Wellness</h1>
             <p class="py-3">
               Modern problems require modern solutions. Since the traditional
@@ -121,9 +121,9 @@
           </div>
         </section>
 
-        <section class="d-flex p-4">
-          <div class="px-5" style="max-width: 572px">
-            <h2 style="color: #234a5b">— OUR BELIEF</h2>
+        <section class="d-flex flex-wrap">
+          <div class="p-3" style="max-width: 572px">
+            <h3 style="color: #234a5b">— OUR BELIEF</h3>
             <h1>We are Unparalleled</h1>
             <p class="py-3">
               While we believe that technology can allow us to achieve more in
@@ -135,20 +135,18 @@
               on the strengths rather than deal with the weaknesses of the mind.
             </p>
           </div>
-          <div>
-            <img
-              src="https://habify.org/wp-content/uploads/2022/08/meditation-768x704.jpg"
-              alt="healing"
-              height="574px"
-              width="574px"
-            />
-          </div>
+          <img
+            class="p-5 photo"
+            src="https://habify.org/wp-content/uploads/2022/08/meditation-768x704.jpg"
+            alt="healing"
+           
+          />
         </section>
       </div>
 
-      <section class="mid_quote p-4">
-        <div class="container px-5">
-          <h2 style="color: #234a5b">— OUR BELIEF</h2>
+      <section class="mid_quote m-4 d-flex justify-content-center align-items-center">
+        <div class="container row px-5">
+          <h5 style="color: #234a5b">— OUR QUEST</h5>
           <h1>Connecting People</h1>
           <p>
             Not everyone needs therapy, but all of us at some point need someone
@@ -163,9 +161,9 @@
         </div>
       </section>
 
-      <section class="container p-4">
-        <div class="px-5" style="max-width: 572px">
-          <h2 style="color: #234a5b">— OUR BELIEF</h2>
+      <section class="container py-4">
+        <div class="p-3" style="max-width: 572px">
+          <h5 style="color: #234a5b">— THE HABIFY PEOPLE</h5>
           <h1>Breaking the Taboo</h1>
           <p class="py-3">
             We’re a bunch of people who identify as ‘humans’. Together, we are
@@ -180,16 +178,17 @@
         </div>
       </section>
 
-      <section class="d-flex p-4 container">
-        <div>
+      <section class="d-flex flex-wrap container">
+        <div class="p-4">
           <img
             src="https://habify.org/wp-content/uploads/2022/08/SUNITA.jpg"
             alt="Founder"
-            height="600px"
-            width="548x"
+            height=auto
+            max-width="548px"
+            width="100%"
           />
         </div>
-        <div class="px-5" style="max-width: 572px">
+        <div class="p-3" style="max-width: 572px">
           <h1 style="color: #234a5b">Our Founder</h1>
           <p class="py-3">
             A psychotherapist, published author, and storyteller at heart,
@@ -206,8 +205,8 @@
         </div>
       </section>
     </div>
-    <div class="d-flex flex-row justify-content-center p-3">
+    <footer class="d-flex flex-row justify-content-center p-3">
       <span>Copyright © 2023 Habify</span>
-    </div>
+    </footer>
   </body>
 </html>
